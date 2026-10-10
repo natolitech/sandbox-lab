@@ -1,0 +1,30 @@
+# secrets / credentials
+.env
+.env*
+*.pem
+*.key
+id_*
+*.p12
+secrets/
+# sandbox / docker state
+.sbx/
+.docker/
+sandbox/
+sandboxes/
+state/
+# logs
+*.log
+# Go build outputs
+/bin/
+/dist/
+app/sandbox-lab
+app/app
+*.exe
+*.test
+*.out
+# editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
